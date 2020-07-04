@@ -1,0 +1,10 @@
+name: week_of_year
+description: Gets the ISO 8601 week of year from a date
+version: 1.0.0
+homepage: https://github.com/kada-development/week_of_year
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.15.1
