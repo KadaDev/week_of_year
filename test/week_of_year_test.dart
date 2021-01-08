@@ -3,24 +3,24 @@ import 'package:test/test.dart';
 import 'package:week_of_year/week_of_year.dart';
 
 void t(int year, List<int> expectations) {
-  group("$year", () {
-    test("January 1st", () {
+  group('$year', () {
+    test('January 1st', () {
       expect(DateTime(year, 1, 1).weekOfYear, expectations[0]);
     });
-    test("Last of February", () {
+    test('Last of February', () {
       expect(
         DateTime(year, 2, DateTime(year).isLeapYear ? 29 : 28).weekOfYear,
         expectations[1],
       );
     });
-    test("December 31st", () {
+    test('December 31st', () {
       expect(DateTime(year, 12, 31).weekOfYear, expectations[2]);
     });
   });
 }
 
 void main() {
-  group("week_of_year", () {
+  group('week_of_year', () {
     t(1990, [1, 9, 1]);
     t(1991, [1, 9, 1]);
     t(1992, [1, 9, 53]);

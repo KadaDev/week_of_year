@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 import 'package:week_of_year/date_week_extensions.dart';
 
 void main() {
-  group("isLeapYear", () {
+  group('isLeapYear', () {
     // Copied from https://kalender-365.de/leap-years.php
     const leapYears = [
       // Comment so dartfmt doesn't ruin this
@@ -22,7 +22,7 @@ void main() {
       2396, 2400,
     ];
     for (var year = 1800; year <= 2400; year++) {
-      test("$year", () {
+      test('$year', () {
         expect(DateTime(year).isLeapYear, leapYears.contains(year));
       });
     }
