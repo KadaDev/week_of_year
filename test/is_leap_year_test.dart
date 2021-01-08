@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-import 'package:week_of_year/week_of_year.dart';
+import 'package:week_of_year/date_week_extensions.dart';
 
 void main() {
   group("isLeapYear", () {
