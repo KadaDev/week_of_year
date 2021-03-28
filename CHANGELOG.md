@@ -1,4 +1,4 @@
-# [2.0.0-nullsafety.0](https://github.com/KadaDev/week_of_year/tree/v2.0.0-nullsafety.0) (2021-01-19)
+# [2.0.0](https://github.com/KadaDev/week_of_year/tree/v2.0.0) (2021-01-19)
 
 Add support for null safety
 
