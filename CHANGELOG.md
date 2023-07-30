@@ -1,3 +1,7 @@
+# [2.2.0](https://github.com/KadaDev/week_of_year/tree/v2.2.0) (2023-07-30)
+
+Add a function `dateTimeFromWeekNumber()` which can be used to create a DateTime from year, ISO week number and an optional week day.
+
 # [2.1.0](https://github.com/KadaDev/week_of_year/tree/v2.1.0) (2023-07-28)
 
 Update dart version constraint to allow dart 3
